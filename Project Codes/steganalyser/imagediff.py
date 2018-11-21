@@ -1,4 +1,6 @@
 from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
 
 '''
     AUTHOR: Himanshu Sharma
@@ -32,3 +34,25 @@ def bruteforce(image1, image2):
      
     ncomponents = i1.size[0] * i1.size[1] * 3 # calculate the total number of pixel values present
     print("Difference (percentage):", (dif / 255.0 * 100) / ncomponents) # get the average percentage
+
+def heatMap(image1, image2):
+    """ Shows a heatmap of the two images on comparison. """
+
+    # open the two images.
+    img1 = Image.open(image1)
+    img2 = Image.open(image2)
+
+    # resize any one of them.
+    img2 = img2.resize(img1.size, Image.ANTIALIAS)
+
+    # convert the images to numpy array for mathematical evaluations.
+    img1 = np.asarray(img1)
+    img2 = np.asarray(img2)
+
+    # subtract the pixels and take the absolute.
+    dif = np.fabs(np.subtract(img2[:], img1[:]))
+    dif = dif.astype('int')
+
+    # Show this as an image. This is the actual heatmap.
+    plt.imshow(dif)
+    plt.show()
