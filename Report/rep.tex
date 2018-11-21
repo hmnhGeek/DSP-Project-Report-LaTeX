@@ -3,7 +3,7 @@
 \author{{\bf By: Himanshu Sharma} \\ {\bf Roll Number: $1610110149$} \\ {\bf Dept. of Electrical Engineering (ECE)} \\\\ {\bf Shiv Nadar University,} \\ {\bf Gautam Buddh Nagar,  Greater Noida, Uttar Pradesh 201314} \\\\\\ \textsc{ Under the guidance of Professor Vijay K. Chakka}}
 \date{}
 
-\usepackage[margin=1.1in]{geometry}
+\usepackage[margin=0.8in]{geometry}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{amsmath}
@@ -23,5 +23,107 @@ In LSB matching, if the message bit does not match with the pixel's LSB, then $\
 $ \displaystyle LSB(x_{i}^{'})=m_{i} \textrm{ and } LSB \Big( \Big\lfloor{\frac{x_{i}^{'}}{2}}\Big \rfloor + x_{i+1}^{'} \Big) = m_{i+1}$
 \end{center}
 From experiments done by the authors of the paper it has been shown that even if the cover image has rough textures, it will still have smooth regions in every $5 \times 5$ non-overlapping blocks. So, if by any chance, a pixel is selected in that region for message hiding then it could be easily identified. This is what the paper aims to solve.
+
+\subsection{Bit Planes}
+We now come to a brief discussion on what is called the bit planes. Bit planes help us visualize the importance of the significant bits used to represent the images. They clearly display the fact that altering the LSB of pixels is less damaging to the original image than altering the MSB of the same original image. Before we discuss them in great detail, let me show an example. Suppose we have a cover image which is shown below.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{images/desktop.jpg}
+\caption{Cover Image}
+\end{figure}
+Its bit planes are shown below. The LSB plane and the MSB planes are what we display first.
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/plane1.png}
+\caption{MSB Plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/plane8.png}
+\caption{LSB Plane}
+\end{minipage}
+\end{figure}
+
+Changing a pixel value in the MSB plane is more prone to human eye detection as compared to the LSB plane. This is because a MSB plane has more structured black and white regions, and so, changing any pixel value, for example say, that a pixel is changed from white to black in the white region, then it would be easily detected. Whereas, on a LSB plane, the black and white regions are more uniformly aligned, just like {\it white noise} on a television screen. Inverting any color on the LSB plane won't change the visual effect. Hence, it is always advised to change the LSB plane in stegnography.
+\par The idea is to generate these images using a single values. Since we have 3 values associated with a single pixel {\it (R, G, B)}, it would be a great idea to convert the image to a grayscale image, so that each pixel is represented by a single value. Now each pixel value, which initially was a three dimensional array, is converted to a one dimensional array having a single value. This matrix of single values (grayscale image) is passed to a function which converts these decimal pixel values to 8 bit binary number. As per the request of the user, the $i^{th}$ bit from each binary pixel is accessed. So, for example, if a pixel has 8-bit binary representation as 11110101 and the user asks for fifth bit plane, then the fifth bit from starting would be accessed and that is 0 for this example. These values are stored in another matrix. So now we have a matrix with only 1 and 0s. We now multiply each and every value of the matrix by 255. The matrix becomes full of 255 and 0s. Zero represent black color and 255 represent white color. When saved, this image is a black and white $i^{th}$ bit plane. 
+
+\par Below, I have shown all the bit planes of the above cover image.
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/1.png}
+\caption{$1^{st}$ bit plane or the MSB Plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/2.png}
+\caption{$2^{nd}$ bit plane}
+\end{minipage}
+\vfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/3.png}
+\caption{$3^{rd}$ bit plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/4.png}
+\caption{$4^{th}$ bit plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/5.png}
+\caption{$5^{th}$ bit plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/6.png}
+\caption{$6^{th}$ bit plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/7.png}
+\caption{$7^{th}$ bit plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/8.png}
+\caption{$8^{th}$ bit plane or the LSB plane}
+\end{minipage}
+
+\end{figure}
+Clearly, as we increase the bit plane number, we are bound to get more better results. Increasing the bit plane number implies less human eye detection in a pixel change. Now let us see the mathematical reasoning behind the bit planes. \newpage Let us define a closed form expression which converts a binary number to its decimal equivalent.
+\begin{equation}
+\displaystyle d(n) =\sum_{i=1}^{n}g(n+1-i,\textrm{ } b)2^{n-i}
+\end{equation}
+where $g(k, b)$ returns the $k^{th}$ bit from left of the binary number $b$ and $n$ denotes the length of the binary number. Here we are dealing with $n=8$. Let us say that the $j^{th}$ bit is changed while doing some steganography. The $j^{th}$ bit could be LSB or MSB or any other bit in between, we are not concerned about that for now. So, we know that $ 1 \leq j \leq n$. Let the original binary number be $\alpha$ and the binary number after the changed bit be denoted by $\beta$. Hence we get,
+
+\begin{center}
+$\displaystyle d_{1}(n) =\sum_{i=1}^{n}g(n+1-i,\textrm{ } \alpha)2^{n-i}$ and
+$\displaystyle d_{2}(n) =\sum_{i=1}^{n}g(n+1-i,\textrm{ } \beta)2^{n-i}$
+\end{center}
+If we take the difference $\Delta d(n) = (d_{1} - d_{2})(n)$, the we get,
+\begin{equation}
+\displaystyle \Delta d(n) =\sum_{i=1}^{n}g(n+1-i,\textrm{ } \alpha)2^{n-i} - \sum_{i=1}^{n}g(n+1-i,\textrm{ } \beta)2^{n-i}
+\end{equation}
+Assuming all other bits of $\alpha$ and $\beta$ to be same except for the $j^{th}$ bit, we get,
+\begin{center}
+$\displaystyle \Delta d(n) = g(n+1-j, \alpha)2^{n-j} - g(n+1-j, \beta)2^{n-j} = 2^{n-j} \Delta g(n, j)$ 
+\end{center}
+where, $\Delta g(n, j) = g(n+1-j, \alpha) - g(n+1-j, \beta)$ and thus we get,
+\begin{equation}
+\displaystyle \delta (n) = |\Delta d(n)| = 2^{n-j}|g(n, j)|
+\end{equation}
+
+Note that $\Delta d(n)$ is the difference in the decimal values of the binary numbers which can be positive, negative or 0, $\delta (n)$ is always non-negative. Now, $|\Delta g(n, j)|$ can be defined as follows;
+\[
+|\Delta g(n, j)| = 
+\begin{cases}
+1, & j^{th} \text{ bit of $\alpha$ and $\beta$ are different} \\
+0, & \text{otherwise}
+\end{cases}
+\]
+The {\it otherwise} case is trivial because if there is no difference in even the $j^{th}$ bit of these binary numbers, then both of them are identical. This means that the number was not changed. But if the number has change, then $|\Delta g(n, j)|$, for sure, is 1. Now, it is in this part we are concerned with the difference. We need to minimize this difference $\delta(n)$ because then only our stego-image will be statistically close to the original image. The value of $\delta(n)$ could be minimum only if $n=j$ (see equation 3), i.e., $\delta(n) = |\Delta g(n, j)|$ which is 1 if we assume that the pixel bit was changed. That is, the difference in decimal value has the minimum magnitude of 1, 0 being the trivial case that the binary numbers were never changed. Since the decimal difference value will decide the grayscale of the stego-image, we want to minimize it. This proves that if we want statistically similar features in the stego-image, we should take $j=n$, i.e., we should consider the LSB only, because that would affect the orignal decimal value by $\pm 1$ only. \par If we do consider $j=1$, then $\delta(n) = 2^{n-1} |\Delta g(n, 1)|$. Again, $\Delta g(n, 1) = \pm 1$ if we consider that the pixel value was changed. However, it is clear that $2^{n-1}$ will yield the maximum difference, and therefore, $j=1$ should never be taken, or, MSB should never be changed.
 
 \end{document}

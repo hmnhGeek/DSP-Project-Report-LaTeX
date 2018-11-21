@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  19 NOV 2018 07:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  21 NOV 2018 05:56
 entering extended mode
 **./rep.tex
 (rep.tex
@@ -137,8 +137,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-No file rep.aux.
+) (rep.aux)
 \openout1 = `rep.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -161,15 +160,15 @@ LaTeX Font Info:    ... okay on input line 12.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(79.49744pt, 455.30013pt, 79.49744pt)
-* v-part:(T,H,B)=(79.49744pt, 635.97511pt, 79.49744pt)
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=455.30013pt
-* \textheight=635.97511pt
-* \oddsidemargin=7.22745pt
-* \evensidemargin=7.22745pt
-* \topmargin=-29.77255pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -250,32 +249,93 @@ G,.JBIG2,.JB2,.eps]
 )
 [1
 
-{/home/himanshu/.miktex/texmfs/data/pdftex/config/pdftex.map}] [1] [2]
-(rep.aux) ) 
+{/home/himanshu/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+<images/desktop.jpg, id=8, 1371.1225pt x 770.88pt>
+File: images/desktop.jpg Graphic file (type jpg)
+<use images/desktop.jpg>
+Package pdftex.def Info: images/desktop.jpg  used on input line 32.
+(pdftex.def)             Requested size: 249.33128pt x 140.17569pt.
+ [1]
+<images/plane1.png, id=21, 1371.1225pt x 770.88pt>
+File: images/plane1.png Graphic file (type png)
+<use images/plane1.png>
+Package pdftex.def Info: images/plane1.png  used on input line 39.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/plane8.png, id=22, 1371.1225pt x 770.88pt>
+File: images/plane8.png Graphic file (type png)
+<use images/plane8.png>
+Package pdftex.def Info: images/plane8.png  used on input line 44.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/1.png, id=23, 1371.1225pt x 770.88pt>
+File: images/1.png Graphic file (type png)
+<use images/1.png>
+Package pdftex.def Info: images/1.png  used on input line 56.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/2.png, id=24, 1371.1225pt x 770.88pt>
+File: images/2.png Graphic file (type png)
+<use images/2.png>
+Package pdftex.def Info: images/2.png  used on input line 61.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/3.png, id=25, 1371.1225pt x 770.88pt>
+File: images/3.png Graphic file (type png)
+<use images/3.png>
+Package pdftex.def Info: images/3.png  used on input line 66.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/4.png, id=26, 1371.1225pt x 770.88pt>
+File: images/4.png Graphic file (type png)
+<use images/4.png>
+Package pdftex.def Info: images/4.png  used on input line 71.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/5.png, id=27, 1371.1225pt x 770.88pt>
+File: images/5.png Graphic file (type png)
+<use images/5.png>
+Package pdftex.def Info: images/5.png  used on input line 76.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/6.png, id=28, 1371.1225pt x 770.88pt>
+File: images/6.png Graphic file (type png)
+<use images/6.png>
+Package pdftex.def Info: images/6.png  used on input line 81.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/7.png, id=29, 1371.1225pt x 770.88pt>
+File: images/7.png Graphic file (type png)
+<use images/7.png>
+Package pdftex.def Info: images/7.png  used on input line 86.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+<images/8.png, id=30, 1371.1225pt x 770.88pt>
+File: images/8.png Graphic file (type png)
+<use images/8.png>
+Package pdftex.def Info: images/8.png  used on input line 91.
+(pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
+ [2 <./images/desktop.jpg> <./images/plane1.png (PNG copy)> <./images/plane8.pn
+g (PNG copy)>] [3 <./images/1.png (PNG copy)> <./images/2.png (PNG copy)> <./im
+ages/3.png (PNG copy)> <./images/4.png (PNG copy)> <./images/5.png (PNG copy)> 
+<./images/6.png (PNG copy)> <./images/7.png (PNG copy)> <./images/8.png (PNG co
+py)>]
+[4] (rep.aux) ) 
 Here is how much of TeX's memory you used:
- 2613 strings out of 494891
- 36233 string characters out of 3178494
- 109190 words of memory out of 3000000
- 6216 multiletter control sequences out of 15000+200000
+ 2675 strings out of 494891
+ 37251 string characters out of 3178494
+ 110202 words of memory out of 3000000
+ 6262 multiletter control sequences out of 15000+200000
  9964 words of font info for 36 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 41i,7n,32p,2998b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmcsc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb>
-Output written on rep.pdf (3 pages, 138336 bytes).
+ 41i,12n,32p,2998b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmcsc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on rep.pdf (5 pages, 1291144 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
