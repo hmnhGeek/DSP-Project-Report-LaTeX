@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  21 NOV 2018 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  22 NOV 2018 10:05
 entering extended mode
 **./rep.tex
 (rep.tex
@@ -137,21 +137,51 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
+)
+(/home/himanshu/.miktex/texmfs/install/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/home/himanshu/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count105
+)
+(/home/himanshu/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+(/home/himanshu/.miktex/texmfs/install/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count106
+\c@ALG@rem=\count107
+\c@ALG@nested=\count108
+\ALG@tlm=\skip46
+\ALG@thistlm=\skip47
+\c@ALG@Lnr=\count109
+\c@ALG@blocknr=\count110
+\c@ALG@storecount=\count111
+\c@ALG@tmpcounter=\count112
+\ALG@tmplength=\skip48
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (rep.aux)
 \openout1 = `rep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -188,17 +218,17 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (/home/himanshu/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count113
 \scratchdimen=\dimen122
 \scratchbox=\box30
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count108
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count116
 \MPscratchDim=\dimen123
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks25
 ) (/home/himanshu/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -253,58 +283,58 @@ G,.JBIG2,.JB2,.eps]
 <images/desktop.jpg, id=8, 1371.1225pt x 770.88pt>
 File: images/desktop.jpg Graphic file (type jpg)
 <use images/desktop.jpg>
-Package pdftex.def Info: images/desktop.jpg  used on input line 32.
+Package pdftex.def Info: images/desktop.jpg  used on input line 33.
 (pdftex.def)             Requested size: 249.33128pt x 140.17569pt.
  [1]
 <images/plane1.png, id=21, 1371.1225pt x 770.88pt>
 File: images/plane1.png Graphic file (type png)
 <use images/plane1.png>
-Package pdftex.def Info: images/plane1.png  used on input line 39.
+Package pdftex.def Info: images/plane1.png  used on input line 40.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/plane8.png, id=22, 1371.1225pt x 770.88pt>
 File: images/plane8.png Graphic file (type png)
 <use images/plane8.png>
-Package pdftex.def Info: images/plane8.png  used on input line 44.
+Package pdftex.def Info: images/plane8.png  used on input line 45.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/1.png, id=23, 1371.1225pt x 770.88pt>
 File: images/1.png Graphic file (type png)
 <use images/1.png>
-Package pdftex.def Info: images/1.png  used on input line 56.
+Package pdftex.def Info: images/1.png  used on input line 57.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/2.png, id=24, 1371.1225pt x 770.88pt>
 File: images/2.png Graphic file (type png)
 <use images/2.png>
-Package pdftex.def Info: images/2.png  used on input line 61.
+Package pdftex.def Info: images/2.png  used on input line 62.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/3.png, id=25, 1371.1225pt x 770.88pt>
 File: images/3.png Graphic file (type png)
 <use images/3.png>
-Package pdftex.def Info: images/3.png  used on input line 66.
+Package pdftex.def Info: images/3.png  used on input line 67.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/4.png, id=26, 1371.1225pt x 770.88pt>
 File: images/4.png Graphic file (type png)
 <use images/4.png>
-Package pdftex.def Info: images/4.png  used on input line 71.
+Package pdftex.def Info: images/4.png  used on input line 72.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/5.png, id=27, 1371.1225pt x 770.88pt>
 File: images/5.png Graphic file (type png)
 <use images/5.png>
-Package pdftex.def Info: images/5.png  used on input line 76.
+Package pdftex.def Info: images/5.png  used on input line 77.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/6.png, id=28, 1371.1225pt x 770.88pt>
 File: images/6.png Graphic file (type png)
 <use images/6.png>
-Package pdftex.def Info: images/6.png  used on input line 81.
+Package pdftex.def Info: images/6.png  used on input line 82.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/7.png, id=29, 1371.1225pt x 770.88pt>
 File: images/7.png Graphic file (type png)
 <use images/7.png>
-Package pdftex.def Info: images/7.png  used on input line 86.
+Package pdftex.def Info: images/7.png  used on input line 87.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/8.png, id=30, 1371.1225pt x 770.88pt>
 File: images/8.png Graphic file (type png)
 <use images/8.png>
-Package pdftex.def Info: images/8.png  used on input line 91.
+Package pdftex.def Info: images/8.png  used on input line 92.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
  [2 <./images/desktop.jpg> <./images/plane1.png (PNG copy)> <./images/plane8.pn
 g (PNG copy)>] [3 <./images/1.png (PNG copy)> <./images/2.png (PNG copy)> <./im
@@ -312,36 +342,43 @@ ages/3.png (PNG copy)> <./images/4.png (PNG copy)> <./images/5.png (PNG copy)>
 <./images/6.png (PNG copy)> <./images/7.png (PNG copy)> <./images/8.png (PNG co
 py)>]
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-[5] (rep.aux) ) 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+[6] (rep.aux) ) 
 Here is how much of TeX's memory you used:
- 2677 strings out of 494891
- 37272 string characters out of 3178494
- 110202 words of memory out of 3000000
- 6263 multiletter control sequences out of 15000+200000
- 10132 words of font info for 37 fonts, out of 3000000 for 9000
+ 3243 strings out of 494891
+ 45516 string characters out of 3178494
+ 119508 words of memory out of 3000000
+ 6814 multiletter control sequences out of 15000+200000
+ 10741 words of font info for 39 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 41i,12n,32p,2998b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,32p,2998b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmcsc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on rep.pdf (6 pages, 1312852 bytes).
+ts/cm/cmbx10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmcsc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on rep.pdf (7 pages, 1340418 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

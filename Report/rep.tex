@@ -7,7 +7,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{amsmath}
-
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
 
 \begin{document}
 \maketitle
@@ -142,6 +143,43 @@ where, $n(S)$ denotes the number of elements in $S$ and $M$ is the message. This
 \begin{center}
 $ S(0) = \{(x_{i}, x_{i+1})| |x_{i} - x_{i+1}| \geq 0, \forall (x_{i}, x_{i+1}) \in V \} $
 \end{center}
-This is what a conventional LSB steganography technique does. It just embedds the message stream without thinking about the difference between the consecutive pixels.
+This is what a conventional LSB steganography technique does. It just embedds the message stream without thinking about the difference between the consecutive pixels. \par We now come to the discusssion of the main pseudocode which actually embedds the data in the image. Below, I have shown the algorithm used for LSB matching.
+\begin{algorithm}
+\caption{LSB Matching}\label{euclid}
+\begin{algorithmic}[1]
+\Procedure{hide}{}
+\If {$LSB(x_{i}) = m_{i}$} 
+	\If {$f(x_{i}, x_{i+1})=m_{i+1}$}
+	\State $(x_{i}^{'}, x_{i+1}^{'}) = (x_{i}, x_{i+1})$ 
+	\Else 
+	\State $(x_{i}^{'}, x_{i+1}^{'}) = (x_{i}, x_{i+1}+r)$ 
+	\EndIf
+\EndIf
 
+\If {$LSB(x_{i})\neq m_{i}$}
+	\If {$f(x_{i}-1, x_{i+1})=m_{i+1}$}
+	\State $(x_{i}^{'}, x_{i+1}^{'}) = (x_{i}-1, x_{i+1})$
+	\Else
+	\State $(x_{i}^{'}, x_{i+1}^{'}) = (x_{i}+1, x_{i+1})$
+	\EndIf
+\EndIf
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+\\ This algorithm is used for hiding the text data inside the image. $r$ is any random value in $\{ 1, -1\}$. Where, $(x_{i}^{'}, x_{i+1}^{'})$ are the new pixel values after data hiding. After this, the image blocks are rotated back to form the orignal image back and the angle values, threshold $T$ and the blcok size are bundled into a binary file and returned as the key, back to the user. \newpage
+
+\underline{\large Data Extraction} \\
+\par Now, to get back the message stream, the image is first divided into blocks of size $B \times B$ again and then each of these blocks is rotated by the angles provided in the key file. Then those pixels are found in which data hiding was actually done using the inequality $|x_{i+1}-x_{i}|\geq T$. Now, to get back two units of the stream, the formula given in section 1.1 is used (refer section 1.1).
+
+\subsection{Conclusions}
+In the case of data embedding, the lower the value of $T$, more number of bits from the message can be embedded in the cover image. The following reasoning proves this; if we have two thresholds $T_{1}$ and $T_{2}$ with $T_{1} < T_{2}$, then this would mean 
+\begin{center}
+$\textrm{argmax}_{t}\{2 \times n(S_{1}(t)) \geq n(M)\} < \textrm{argmax}_{t}\{2 \times n(S_{2}(t)) \geq n(M)\}$
+\end{center}
+where,
+\begin{center}
+$ S_{1}(t) = \{ (x_{i}, x_{i+1})||x_{i} - x_{i+1}| > t_{1}, \forall (x_{i}, x_{i+1}) \in V\} $ \\
+$ S_{2}(t) = \{ (x_{i}, x_{i+1})||x_{i} - x_{i+1}| > t_{2}, \forall (x_{i}, x_{i+1}) \in V\} $
+\end{center} 
+Because $T_{1} < T_{2} \implies t_{1} < t_{2}$ and that would mean that $S_{1}$ has lesser threshold value when compared to $S_{2}$. This would mean that more pixels would be available which satisfies $|x_{i} - x_{i+1}| > t_{1}$ than the pixels which satisfy $|x_{i} - x_{i+1}| > t_{2}$. Hence, $S_{1}$ would contain more elements or tuples than $S_{2}$. This is what the very first statement is saying, that if, threshold is small, more pixels could be accomodated.
 \end{document}
