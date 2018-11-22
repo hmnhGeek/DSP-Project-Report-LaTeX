@@ -181,5 +181,35 @@ where,
 $ S_{1}(t) = \{ (x_{i}, x_{i+1})||x_{i} - x_{i+1}| > t_{1}, \forall (x_{i}, x_{i+1}) \in V\} $ \\
 $ S_{2}(t) = \{ (x_{i}, x_{i+1})||x_{i} - x_{i+1}| > t_{2}, \forall (x_{i}, x_{i+1}) \in V\} $
 \end{center} 
-Because $T_{1} < T_{2} \implies t_{1} < t_{2}$ and that would mean that $S_{1}$ has lesser threshold value when compared to $S_{2}$. This would mean that more pixels would be available which satisfies $|x_{i} - x_{i+1}| > t_{1}$ than the pixels which satisfy $|x_{i} - x_{i+1}| > t_{2}$. Hence, $S_{1}$ would contain more elements or tuples than $S_{2}$. This is what the very first statement is saying, that if, threshold is small, more pixels could be accomodated.
+Because $T_{1} < T_{2} \implies t_{1} < t_{2}$ and that would mean that $S_{1}$ has lesser threshold value when compared to $S_{2}$. This would mean that more pixels would be available which satisfies $|x_{i} - x_{i+1}| > t_{1}$ than the pixels which satisfy $|x_{i} - x_{i+1}| > t_{2}$. Hence, $S_{1}$ would contain more elements or tuples than $S_{2}$. This is what the very first statement is saying, that if, threshold is small, more pixels could be accomodated. \par With steganography in mind, in general, we always need to compare the images for steganalysis. For this we first calculate the {\it mean square error} (MSE) between the cover $(A)$ and the stego-image $(B)$ by the following relation,
+\begin{equation}
+MSE(A, B) = \frac{1}{N} \sum_{i=0}^{N} (A_{i} - B_{i})^{2}
+\end{equation}
+Where, the subscript $i$ denotes the $i^{th}$ pixel of the image.
+Here, actually, the MSE is the noise introduced in the cover image after steganography has been performed on it. So, in decibels (dB), the Peak Signal to Noise Ratio (PSNR) is given by,
+\begin{equation}
+PSNR_{dB} = 10 \log_{10}\Bigg|\frac{max^{2}(A)}{MSE}\Bigg|
+\end{equation}
+Where $max(A)$ is the maximum pixel value in the image or the peak signal available in the image. \par The techinque used in this paper exactly identical image after doing steganography as was the original cover image. Below, I have shown the eighth bit plane of a cover image and its stego-image as an example.
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/konsole.png}
+\caption{Cover Image LSB plane}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\includegraphics[width=\textwidth]{images/konsole-stego.png}
+\caption{Stego Image LSB plane}
+\end{minipage}
+\end{figure}
+Clearly, we see that both the bit planes are identical looking, although they are not in exact sense. If the planes are zoomed and then viewed, then it is easy to spot differences. These differences occur because of resizing done by the code and some due to the embedded text also. Since there is such an uniformity in the LSB planes of both cover and stego-image, its practically impossible for someone to spot the difference in the cover and stego-image. I thus conclude by saying that image steganography is successfully implemented by me. \underline{Full code base (each and every code script) is written by me (in Python)} and is  available on my GitHub repository at \begin{center} {\bf https://github.com/hmnhGeek/DSP-Project-Report-LaTeX} \end{center}
+This report is also available with it's complete \LaTeX code in the same repository under the \texttt{Report} folder. I would like the reader to surely go through the repository once.
+
+\par My contributions include the following,
+\begin{enumerate}
+\item Full code base in Python dedicated to this project.
+\item Report writing done with \LaTeX. 
+\end{enumerate}
+
 \end{document}

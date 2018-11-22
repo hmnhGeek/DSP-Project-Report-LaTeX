@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  22 NOV 2018 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  22 NOV 2018 17:44
 entering extended mode
 **./rep.tex
 (rep.tex
@@ -351,34 +351,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-[6] (rep.aux) ) 
+<images/konsole.png, id=46, 665.48625pt x 404.51125pt>
+File: images/konsole.png Graphic file (type png)
+<use images/konsole.png>
+Package pdftex.def Info: images/konsole.png  used on input line 197.
+(pdftex.def)             Requested size: 229.38812pt x 139.42691pt.
+<images/konsole-stego.png, id=47, 665.48625pt x 404.51125pt>
+File: images/konsole-stego.png Graphic file (type png)
+<use images/konsole-stego.png>
+Package pdftex.def Info: images/konsole-stego.png  used on input line 202.
+(pdftex.def)             Requested size: 229.38812pt x 139.42691pt.
+[6 <./images/konsole.png (PNG copy)> <./images/konsole-stego.png>] [7] (rep.aux
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3243 strings out of 494891
- 45516 string characters out of 3178494
- 119508 words of memory out of 3000000
- 6814 multiletter control sequences out of 15000+200000
+ 3253 strings out of 494891
+ 45750 string characters out of 3178494
+ 119501 words of memory out of 3000000
+ 6822 multiletter control sequences out of 15000+200000
  10741 words of font info for 39 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  41i,12n,32p,2998b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmcsc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on rep.pdf (7 pages, 1340418 bytes).
+</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmc
+sc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb>
+Output written on rep.pdf (8 pages, 1656052 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
