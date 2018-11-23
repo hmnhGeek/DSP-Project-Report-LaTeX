@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  22 NOV 2018 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  23 NOV 2018 13:40
 entering extended mode
 **./rep.tex
 (rep.tex
@@ -362,36 +362,32 @@ File: images/konsole-stego.png Graphic file (type png)
 Package pdftex.def Info: images/konsole-stego.png  used on input line 202.
 (pdftex.def)             Requested size: 229.38812pt x 139.42691pt.
 [6 <./images/konsole.png (PNG copy)> <./images/konsole-stego.png>] [7] (rep.aux
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
  3253 strings out of 494891
  45750 string characters out of 3178494
- 119501 words of memory out of 3000000
+ 119508 words of memory out of 3000000
  6822 multiletter control sequences out of 15000+200000
  10741 words of font info for 39 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  41i,12n,32p,2998b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmc
-sc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb>
-Output written on rep.pdf (8 pages, 1656052 bytes).
+</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+csc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb>
+Output written on rep.pdf (8 pages, 1656060 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
