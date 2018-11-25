@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  25 NOV 2018 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  25 NOV 2018 17:31
 entering extended mode
 **./rep.tex
 (rep.tex
@@ -365,82 +365,91 @@ File: images/konsole-stego.png Graphic file (type png)
 Package pdftex.def Info: images/konsole-stego.png  used on input line 203.
 (pdftex.def)             Requested size: 229.38812pt x 139.42691pt.
 [6 <./images/konsole.png (PNG copy)> <./images/konsole-stego.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-
-Overfull \hbox (3.94011pt too wide) in paragraph at lines 231--232
+[7]
+<images/proposed_scheme.png, id=55, 498.86375pt x 212.795pt>
+File: images/proposed_scheme.png Graphic file (type png)
+<use images/proposed_scheme.png>
+Package pdftex.def Info: images/proposed_scheme.png  used on input line 235.
+(pdftex.def)             Requested size: 299.20059pt x 127.62927pt.
+ [8 <./images/proposed_scheme.png>] [9]
+Overfull \hbox (3.94011pt too wide) in paragraph at lines 337--338
 \OT1/cmr/m/n/10 (refer the paper) suggested in the paper were not implemented p
 recisely. Instead, a linear form of steganography
  []
 
-<images/lenna.png, id=52, 513.92pt x 513.92pt>
+<images/lenna.png, id=62, 513.92pt x 513.92pt>
 File: images/lenna.png Graphic file (type png)
 <use images/lenna.png>
-Package pdftex.def Info: images/lenna.png  used on input line 238.
+Package pdftex.def Info: images/lenna.png  used on input line 344.
 (pdftex.def)             Requested size: 160.57098pt x 160.56822pt.
-<images/stego-lenna.png, id=53, 501.875pt x 501.875pt>
+<images/stego-lenna.png, id=63, 501.875pt x 501.875pt>
 File: images/stego-lenna.png Graphic file (type png)
 <use images/stego-lenna.png>
-Package pdftex.def Info: images/stego-lenna.png  used on input line 244.
+Package pdftex.def Info: images/stego-lenna.png  used on input line 350.
 (pdftex.def)             Requested size: 160.57098pt x 160.57265pt.
-<images/covermsb.png, id=54, 513.92pt x 513.92pt>
+<images/covermsb.png, id=64, 513.92pt x 513.92pt>
 File: images/covermsb.png Graphic file (type png)
 <use images/covermsb.png>
-Package pdftex.def Info: images/covermsb.png  used on input line 253.
+Package pdftex.def Info: images/covermsb.png  used on input line 359.
 (pdftex.def)             Requested size: 160.57098pt x 160.56822pt.
-<images/coverlsb.png, id=55, 513.92pt x 513.92pt>
+<images/coverlsb.png, id=65, 513.92pt x 513.92pt>
 File: images/coverlsb.png Graphic file (type png)
 <use images/coverlsb.png>
-Package pdftex.def Info: images/coverlsb.png  used on input line 259.
+Package pdftex.def Info: images/coverlsb.png  used on input line 365.
 (pdftex.def)             Requested size: 160.57098pt x 160.56822pt.
-[7 <./images/lenna.png> <./images/stego-lenna.png (PNG copy)>]
-<images/stegomsb.png, id=59, 501.875pt x 501.875pt>
+<images/stegomsb.png, id=66, 501.875pt x 501.875pt>
 File: images/stegomsb.png Graphic file (type png)
 <use images/stegomsb.png>
-Package pdftex.def Info: images/stegomsb.png  used on input line 268.
+Package pdftex.def Info: images/stegomsb.png  used on input line 374.
 (pdftex.def)             Requested size: 160.57098pt x 160.57265pt.
-<images/stegolsb.png, id=60, 501.875pt x 501.875pt>
+<images/stegolsb.png, id=67, 501.875pt x 501.875pt>
 File: images/stegolsb.png Graphic file (type png)
 <use images/stegolsb.png>
-Package pdftex.def Info: images/stegolsb.png  used on input line 274.
+Package pdftex.def Info: images/stegolsb.png  used on input line 380.
 (pdftex.def)             Requested size: 160.57098pt x 160.57265pt.
-LaTeX Font Info:    Try loading font information for U+futs on input line 281.
+[10 <./images/lenna.png> <./images/stego-lenna.png (PNG copy)> <./images/coverm
+sb.png (PNG copy)> <./images/coverlsb.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
 
+ []
+
+LaTeX Font Info:    Try loading font information for U+futs on input line 390.
 (/home/himanshu/.miktex/texmfs/install/tex/latex/fourier/ufuts.fd
 File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
-) [8 <./images/covermsb.png (PNG copy)> <./images/coverlsb.png (PNG copy)> <./i
-mages/stegomsb.png (PNG copy)> <./images/stegolsb.png (PNG copy)>] (rep.aux) ) 
+) [11 <./images/stegomsb.png (PNG copy)> <./images/stegolsb.png (PNG copy)>] (r
+ep.aux) ) 
 Here is how much of TeX's memory you used:
- 3355 strings out of 494891
- 47468 string characters out of 3178494
- 119804 words of memory out of 3000000
- 6908 multiletter control sequences out of 15000+200000
+ 3360 strings out of 494891
+ 47610 string characters out of 3178494
+ 120045 words of memory out of 3000000
+ 6912 multiletter control sequences out of 15000+200000
  11064 words of font info for 42 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 41i,12n,32p,2998b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
-/home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc1
-0.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmtt10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/
-fourier/fourier-orns.pfb>
-Output written on rep.pdf (9 pages, 2983320 bytes).
+ 41i,12n,32p,2994b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmcsc10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb></home/himanshu/.miktex/texmfs/install/fonts/typ
+e1/public/fourier/fourier-orns.pfb>
+Output written on rep.pdf (12 pages, 3016569 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
