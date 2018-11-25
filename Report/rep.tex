@@ -9,6 +9,7 @@
 \usepackage{amsmath}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
+\usepackage{fourier-orns}
 
 \begin{document}
 \maketitle
@@ -212,4 +213,71 @@ This report is also available with it's complete \LaTeX code in the same reposit
 \item Report writing done with \LaTeX. 
 \end{enumerate}
 
+
+\section{Conclusions and Results}
+We conclude the report by saying the what we aimed at while implemenenting the paper has been achieved. We ought to target image steganography and for that we tried using edge adaptive techniques. Although, the author of the code did not implemented the paper in its full essence but the code is working as expected by the author. Few points that must be noted about what implementations have been achieved and what has been not before we conclude with the results. Note: The code has been authored by Himanshu Sharma. \\
+
+\underline{\large What has been achieved in the Python code base}
+\begin{enumerate}
+\item Graphical User Interface has been developed so that anyone can use this software piece.
+\item Division of image into blocks of dimension $B \times B$ and then their random rotations has been implemented so as to increase the security as given in the paper.
+\item Bit Planes were implemented as they were given in the paper. A special Python script is dedicated for this only.
+\item LSB Matching algorithm as given in the paper has been implemented successfully.
+\item Image steganography has been done successfully.
+\end{enumerate}
+\par
+\underline{\large What the author was unable to implement in the code}
+\begin{enumerate}
+\item Because the "argmin" and "argmax" operations seemed difficult and therefore steps 2 and 3 of the algorithm (refer the paper) suggested in the paper were not implemented precisely. Instead, a linear form of steganography was done as a substitute to these steps.
+\end{enumerate}
+If we have to summarize, we summarize the results by operating on the popular test image used in the field of image processing, i.e., the popular model lenna.
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.46\linewidth}
+\centering
+\includegraphics[width=0.7\textwidth]{images/lenna.png}
+\caption{Cover Image}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\centering
+\includegraphics[width=0.7\textwidth]{images/stego-lenna.png}
+\caption{Stego Image}
+\end{minipage}
+\end{figure}
+Clearly, there is no difference in the cover and the stego image. Just to convey the information, we are also showing the MSB and LSB planes of the cover and the stego-image.
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.46\linewidth}
+\centering
+\includegraphics[width=0.7\textwidth]{images/covermsb.png}
+\caption{MSB plane of the Cover}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\centering
+\includegraphics[width=0.7\textwidth]{images/coverlsb.png}
+\caption{MSB of the Cover}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.46\linewidth}
+\centering
+\includegraphics[width=0.7\textwidth]{images/stegomsb.png}
+\caption{MSB plane of the Cover}
+\end{minipage}
+\hfill
+\begin{minipage}{0.46\linewidth}
+\centering
+\includegraphics[width=0.7\textwidth]{images/stegolsb.png}
+\caption{MSB of the Cover}
+\end{minipage}
+\end{figure}
+We conclude by saying that image steganography has been implemented successfully and we got the results as expected.
+
+\begin{center}
+\decosix\decosix\decosix
+\end{center}
 \end{document}
