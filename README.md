@@ -23,9 +23,23 @@ After embedding will be done, a message box will alert you about this. **The ste
 
 ### Exposing the Stego-Image
 To expose a stego-image in which some text is hidden, go to the home page and click on `Stego-Exposer` button.
-This window will pop up.
+This window will pop up. Choose the stego image and the correct key file and click on `Decode Image` to start the sub-routine for decoding. Avoid doing any other tasks on the software until this routine gets over.
 
 <img src="/readme_images/expose.png" width="500">
+
+### Bit Planes
+Although not in any way related to embedding data or extracting data from the image, bit planes are something very important and this software can generate them too.
+
+* Go to home page.
+* Click on `Bit Plane Generator`.
+
+You will see this.
+
+<img src="/readme_images/bitplanes.png" width="500">
+
+Enter the bit plane number in the entry box and click on `Generate`. Below are LSB and MSB planes respectively.
+
+<img src="/readme_images/bit8.png" width="400">  <img src="/readme_images/bit1.png" width="400">
 
 Just so that you see the similarity, the left one is the original image and the right one is the stego image.
 
