@@ -12,3 +12,6 @@ On issuing the command, the following GUI screen will pop up.
 <img src="/readme_images/Home.png" width="500">
 
 ### Hiding Text
+To hide some message in some image, click on `Stego-Generator` button. You will get the following screen.
+
+<img src="/readme_images/stego-gen.png" width="500">
