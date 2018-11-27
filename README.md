@@ -9,6 +9,6 @@ Hide your text messages that are meant to be kept secret from other people, insi
 
 On issuing the command, the following GUI screen will pop up.
 
-<img src="/readme_images/Home.png" width="250">
+<img src="/readme_images/Home.png" width="500">
 
 ### Hiding Text
