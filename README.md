@@ -26,3 +26,7 @@ To expose a stego-image in which some text is hidden, go to the home page and cl
 This window will pop up.
 
 <img src="/readme_images/expose.png" width="500">
+
+Just so that you see the similarity, the left one is the original image and the right one is the stego image.
+
+<img src="/readme_images/baboon.png">  <img src="/readme_images/stego.png">
