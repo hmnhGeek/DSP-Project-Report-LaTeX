@@ -29,4 +29,4 @@ This window will pop up.
 
 Just so that you see the similarity, the left one is the original image and the right one is the stego image.
 
-<img src="/readme_images/baboon.png">  <img src="/readme_images/stego.png">
+<img src="/readme_images/baboon.png" width="400">  <img src="/readme_images/stego.png" width="400">
