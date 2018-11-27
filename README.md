@@ -2,6 +2,12 @@
 
 Hide your text messages that are meant to be kept secret from other people, inside an image. Written in pure Python, the data is securely hidden inside the image and is only accessible to those who have the key.
 
+## Requirements
+* Numpy
+* Scipy
+* Pillow
+* Matplotlib
+
 ## How to use?
 
 * Get into `Project Codes/PVD/`
