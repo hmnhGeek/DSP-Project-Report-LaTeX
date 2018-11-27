@@ -3,6 +3,8 @@
 Hide your text messages that are meant to be kept secret from other people, inside an image. Written in pure Python, the data is securely hidden inside the image and is only accessible to those who have the key.
 
 ## Requirements
+Please install them manually. No `requirements.txt` is available currently. Without these four essential modules, this software will not work. Do upgrade `pip` before installing: `sudo pip --upgrade pip`.
+
 * Numpy
 * Scipy
 * Pillow
