@@ -242,8 +242,8 @@ They use the absolute difference between two adjacent pixels as the criterion fo
 \par {\bf Step 4} is similar to step 1 except that the blocks are rotated by same degrees but in opposite direction.
 The parameters for $(T,B_{z})$ are hidden in a preset area.
 
-\par {\bf Analysis} - One of the important properties of our steganographic method is that it can first choose the sharper edge regions for data hiding according to the size of the secret message by adjusting a threshold $T$.
-The experimental resuls are  summarized in table3 for different embedding rates  in the paper itself show that it has the minimum accuracy of being detected in most of the cases amongst the seven steganographic algorithms.
+\par {\bf Analysis} - One of the important properties of this steganographic method is that it can first choose the sharper edge regions for data hiding according to the size of the secret message by adjusting a threshold $T$.
+The experimental results are  summarized in table-3 for different embedding rates in the paper itself, show that it has the minimum accuracy of being detected in most of the cases amongst the seven steganographic algorithms.
 
 \newpage
 \section{Paper Comprehension by Member 3 - Vedansh Gupta}
@@ -320,8 +320,16 @@ When is 0, all the embedding units within the cover become
 available. In such a case, our method can achieve the maximum
 embedding capacity of 100 \%.
 
+\par Our technique of implementation takes LSB of pixels in a ordered manner i.e. divide the image into blocks, convert them into a row of block vector (just for the ease of computation), rotate each block by a certain random angle, store data using LSBMR technique and bring it back to as the blocks were placed in the previous image.
+
+Rotating images and then storing data could make the data scrambled and somebody who tries to debug could not be able to get the data in a particular manner.
+
+What more could we do was when the blocks were made, we could’ve traversed the last two or three blocks from all the edge (depending on the bits of the message) to a certain place keeping a record of it and then rotating them and storing the data. Then moving them back to their original place.
+
+This could make debugging even more difficult.
+
 \section{Conclusions and Results}
-We conclude the report by saying that what we aimed at while implemenenting the paper has been achieved. We ought to target image steganography and for that we tried using edge adaptive techniques. Although, the author of the code did not implemented the paper in its full essence but the code is working as expected by the author. Few points that must be noted about what implementations have been achieved and what has been not before we conclude with the results. Note: The code has been authored by Himanshu Sharma (Member - 1). \newpage
+We conclude the report by saying that what we aimed at while implemenenting the paper has been achieved. We ought to target image steganography and for that we tried using edge adaptive techniques. Although, the author of the code did not implemented the paper in its full essence but the code is working as expected by the author. Few points that must be noted about what implementations have been achieved and what has been not before we conclude with the results. Note: The code has been authored by Himanshu Sharma (Member - 1).
 
 \underline{\large What has been achieved in the Python code base}
 \begin{enumerate}
