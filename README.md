@@ -36,7 +36,7 @@ This window will pop up. Choose the stego image and the correct key file and cli
 <img src="/readme_images/expose.png" width="500">
 
 ### Bit Planes
-Although not in any way related to embedding data or extracting data from the image, bit planes are something very important and this software can generate them too.
+Although bit planes is not in any way related to embedding data or extracting data from the image, they are something very important and this software can generate them too.
 
 * Go to home page.
 * Click on `Bit Plane Generator`.
@@ -45,11 +45,11 @@ You will see this.
 
 <img src="/readme_images/bitplanes.png" width="500">
 
-Enter the bit plane number in the entry box and click on `Generate`. On this part, `threading` is not used. So when `Generate` is clicked, the window may freeze and may stop respond. Be patient and wait till maximum 1 to 2 minutes in the worst case. Below are LSB and MSB planes respectively.
+Enter the bit plane number in the entry box and click on `Generate`. On this part, `threading` is not used. So when `Generate` is clicked, the window may freeze and may stop responding. Be patient and wait till maximum of 1 to 2 minutes in the worst case. Below are LSB and MSB planes respectively.
 
 <img src="/readme_images/bit8.png" width="400">  <img src="/readme_images/bit1.png" width="400">
 
-To read about bit planes either refer to the `Report` directory in the repository or go though this link - [Bit Planes](https://en.wikipedia.org/wiki/Bit_plane)
+To read about bit planes, either refer to the `Report` directory in the repository or go though this link - [Bit Planes](https://en.wikipedia.org/wiki/Bit_plane)
 
 ## Example
 Just so that you see the similarity, the left one is the original image and the right one is the stego image.
