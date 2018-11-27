@@ -77,5 +77,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+## IMPORTANT NOTE
+**The main code resides `Project Codes/PVD/`**, however, individual modules used by the GUI (modules made by the author) are separately available in `Project Codes` directory as well. Their own command line tools are available in their respective directory.
+
 ## AUTHOR
 This full software pack with its documentation in `Report` folder is done by **Himanshu Sharma**, the owner of this github repository and account. 
