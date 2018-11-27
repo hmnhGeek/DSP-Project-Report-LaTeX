@@ -45,7 +45,7 @@ You will see this.
 
 <img src="/readme_images/bitplanes.png" width="500">
 
-Enter the bit plane number in the entry box and click on `Generate`. Below are LSB and MSB planes respectively.
+Enter the bit plane number in the entry box and click on `Generate`. On this part, `threading` is not used. So when `Generate` is clicked, the window may freeze and may stop respond. Be patient and wait till maximum 1 to 2 minutes in the worst case. Below are LSB and MSB planes respectively.
 
 <img src="/readme_images/bit8.png" width="400">  <img src="/readme_images/bit1.png" width="400">
 
