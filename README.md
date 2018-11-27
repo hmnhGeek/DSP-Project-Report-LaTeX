@@ -41,6 +41,8 @@ Enter the bit plane number in the entry box and click on `Generate`. Below are L
 
 <img src="/readme_images/bit8.png" width="400">  <img src="/readme_images/bit1.png" width="400">
 
+To read about bit planes either refer to the `Report` directory in the repository or go though this link - [Bit Planes](https://en.wikipedia.org/wiki/Bit_plane)
+
 Just so that you see the similarity, the left one is the original image and the right one is the stego image.
 
 <img src="/readme_images/baboon.png" width="400">  <img src="/readme_images/stego.png" width="400">
