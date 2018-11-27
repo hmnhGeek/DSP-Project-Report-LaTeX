@@ -20,3 +20,9 @@ Now, there is an entry box where it is written `Block size goes here...`. In tha
 
 After embedding will be done, a message box will alert you about this. **The stego-image will be in the same folder, where original image is. It will have a name `final.final.png`.** A key file (binary file) will also be generated `final.<image_name>.<image_format>.dat` in the same folder.
 **You can rename these both files as per your choice but the software will generate these names only.**
+
+### Exposing the Stego-Image
+To expose a stego-image in which some text is hidden, go to the home page and click on `Stego-Exposer` button.
+This window will pop up.
+
+<img src="/readme_images/expose.png" width="500">
