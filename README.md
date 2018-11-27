@@ -16,4 +16,4 @@ To hide some message in some image, click on `Stego-Generator` button. You will 
 
 <img src="/readme_images/stego-gen.png" width="500">
 
-Now, there is an entry box where it is written `Block size goes here...`. In that, type any integer which represents the block size in which the image will be divided into non-overlapping units B X B.
+Now, there is an entry box where it is written `Block size goes here...`. In that, type any integer which represents the block size in which the image will be divided into non-overlapping units B X B. Choose other details and click on `Embedd` button to start the embedding sub-routine. **A parallel process will start, avoid doing any other tasks on the software.**
