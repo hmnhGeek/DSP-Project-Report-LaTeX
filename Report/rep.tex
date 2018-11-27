@@ -10,6 +10,9 @@
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \usepackage{fourier-orns}
+\usepackage{csquotes}
+
+\newenvironment{ppl}{\fontfamily{pcr}\selectfont}{\par}
 
 \begin{document}
 \maketitle
@@ -274,7 +277,7 @@ which the number of embedded bits is determined by the difference
 between a pixel and its neighbor. The larger the difference,
 the larger the number of secret bits that can be embedded.
 Usually, PVD-based approaches can provide a larger
-embedding capacity. \par Generally, the regions
+embedding capacity. Generally, the regions
 located at the sharper edges present more complicated statistical
 features and are highly dependent on the image contents.
 Moreover, it is more difficult to observe changes at the sharper
@@ -301,8 +304,7 @@ secret bits that can be embedded into the unit.
 \par We find that uncompressed natural images usually
 contain some flat regions (it may be as small as 5X5 and it
 is hard to notice), If we embed data into these regions, the LSB of stego images would become more and more random.
-Our proposed
-scheme will first embed the secret bits into edge regions as far
+Our proposed scheme will first embed the secret bits into edge regions as far
 as possible while keeping other smooth regions as they are.
 We have not much focused on the security and safety of our data and image.
 In this paper, we apply such a region adaptive scheme to the
@@ -310,26 +312,22 @@ spatial LSB domain. We use the absolute difference between
 two adjacent pixels as the criterion for region selection, and use
 LSBMR as the data hiding algorithm. We have taken two parameters for data hiding approach. The first one is the block size for block dividing in data preprocessing;
 another is the threshold for embedding region selection.
-\par 
 The larger the
-number of secret bits to be embedded, the smaller the threshold T
+number of secret bits to be embedded, the smaller the threshold $T$
 becomes, which means that more embedding units with
 lower gradients in the cover image can be released.
-
-When is 0, all the embedding units within the cover become
+When $T$ is 0, all the embedding units within the cover become
 available. In such a case, our method can achieve the maximum
 embedding capacity of 100 \%.
 
 \par Our technique of implementation takes LSB of pixels in a ordered manner i.e. divide the image into blocks, convert them into a row of block vector (just for the ease of computation), rotate each block by a certain random angle, store data using LSBMR technique and bring it back to as the blocks were placed in the previous image.
-
 Rotating images and then storing data could make the data scrambled and somebody who tries to debug could not be able to get the data in a particular manner.
-
 What more could we do was when the blocks were made, we could’ve traversed the last two or three blocks from all the edge (depending on the bits of the message) to a certain place keeping a record of it and then rotating them and storing the data. Then moving them back to their original place.
-
 This could make debugging even more difficult.
+\newpage
 
 \section{Conclusions and Results}
-We conclude the report by saying that what we aimed at while implemenenting the paper has been achieved. We ought to target image steganography and for that we tried using edge adaptive techniques. Although, the author of the code did not implemented the paper in its full essence but the code is working as expected by the author. Few points that must be noted about what implementations have been achieved and what has been not before we conclude with the results. Note: The code has been authored by Himanshu Sharma (Member - 1).
+We conclude the report by saying that what we aimed at while implemenenting the paper has been achieved. We ought to target image steganography and for that we tried using edge adaptive techniques. Although, the author of the code did not implemented the paper in its full essence but the code is working as expected by the author. Few points that must be noted about what implementations have been achieved and what has been not before we conclude with the results. Note: The code has been authored by Himanshu Sharma (Member - 1). \\
 
 \underline{\large What has been achieved in the Python code base}
 \begin{enumerate}
@@ -359,7 +357,12 @@ If we have to summarize, we summarize the results by operating on the popular te
 \caption{Stego Image}
 \end{minipage}
 \end{figure}
-Clearly, there is no difference in the cover and the stego image. Just to convey the information, I am also showing the MSB and LSB planes of the cover and the stego-image.
+Clearly, there is no difference in the cover and the stego image. Just to convey the information, I am also showing the MSB and LSB planes of the cover and the stego-image. Note how easy would it have been for an attacker if we would store our data inside the MSB plane (see the figures below). The following text is hidden in the stego image.
+\begin{center}
+\begin{ppl}
+Steganography includes the concealment of information within computer files. In digital steganography, electronic communications may include steganographic coding inside of a transport layer, such as a document file, image file, program or protocol. Media files are ideal for steganographic transmission because of their large size. For example, a sender might start with an innocuous image file and adjust the color of every hundredth pixel to correspond to a letter in the alphabet. The change is so subtle that someone who is not specifically looking for it is unlikely to notice the change.
+\end{ppl}
+\end{center}
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.46\linewidth}

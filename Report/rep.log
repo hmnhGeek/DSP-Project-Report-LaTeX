@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  27 NOV 2018 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.9.3)  27 NOV 2018 10:09
 entering extended mode
 **./rep.tex
 (rep.tex
@@ -169,21 +169,48 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/home/himanshu/.miktex/texmfs/install/tex/latex/fourier/fourier-orns.sty
 Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
 )
+(/home/himanshu/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
+
+(/home/himanshu/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count113
+)
+\csq@reset=\count114
+\csq@gtype=\count115
+\csq@glevel=\count116
+\csq@qlevel=\count117
+\csq@maxlvl=\count118
+\csq@tshold=\count119
+\csq@ltx@everypar=\toks24
+
+(/home/himanshu/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/home/himanshu/.miktex/texmfs/install/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
 (rep.aux)
 \openout1 = `rep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -221,17 +248,17 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (/home/himanshu/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
+\scratchcounter=\count120
 \scratchdimen=\dimen122
 \scratchbox=\box30
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count116
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count123
 \MPscratchDim=\dimen123
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks26
 ) (/home/himanshu/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -286,58 +313,58 @@ G,.JBIG2,.JB2,.eps]
 <images/desktop.jpg, id=8, 1371.1225pt x 770.88pt>
 File: images/desktop.jpg Graphic file (type jpg)
 <use images/desktop.jpg>
-Package pdftex.def Info: images/desktop.jpg  used on input line 34.
+Package pdftex.def Info: images/desktop.jpg  used on input line 37.
 (pdftex.def)             Requested size: 249.33128pt x 140.17569pt.
  [1]
 <images/plane1.png, id=21, 1371.1225pt x 770.88pt>
 File: images/plane1.png Graphic file (type png)
 <use images/plane1.png>
-Package pdftex.def Info: images/plane1.png  used on input line 41.
+Package pdftex.def Info: images/plane1.png  used on input line 44.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/plane8.png, id=22, 1371.1225pt x 770.88pt>
 File: images/plane8.png Graphic file (type png)
 <use images/plane8.png>
-Package pdftex.def Info: images/plane8.png  used on input line 46.
+Package pdftex.def Info: images/plane8.png  used on input line 49.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/1.png, id=23, 1371.1225pt x 770.88pt>
 File: images/1.png Graphic file (type png)
 <use images/1.png>
-Package pdftex.def Info: images/1.png  used on input line 58.
+Package pdftex.def Info: images/1.png  used on input line 61.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/2.png, id=24, 1371.1225pt x 770.88pt>
 File: images/2.png Graphic file (type png)
 <use images/2.png>
-Package pdftex.def Info: images/2.png  used on input line 63.
+Package pdftex.def Info: images/2.png  used on input line 66.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/3.png, id=25, 1371.1225pt x 770.88pt>
 File: images/3.png Graphic file (type png)
 <use images/3.png>
-Package pdftex.def Info: images/3.png  used on input line 68.
+Package pdftex.def Info: images/3.png  used on input line 71.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/4.png, id=26, 1371.1225pt x 770.88pt>
 File: images/4.png Graphic file (type png)
 <use images/4.png>
-Package pdftex.def Info: images/4.png  used on input line 73.
+Package pdftex.def Info: images/4.png  used on input line 76.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/5.png, id=27, 1371.1225pt x 770.88pt>
 File: images/5.png Graphic file (type png)
 <use images/5.png>
-Package pdftex.def Info: images/5.png  used on input line 78.
+Package pdftex.def Info: images/5.png  used on input line 81.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/6.png, id=28, 1371.1225pt x 770.88pt>
 File: images/6.png Graphic file (type png)
 <use images/6.png>
-Package pdftex.def Info: images/6.png  used on input line 83.
+Package pdftex.def Info: images/6.png  used on input line 86.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/7.png, id=29, 1371.1225pt x 770.88pt>
 File: images/7.png Graphic file (type png)
 <use images/7.png>
-Package pdftex.def Info: images/7.png  used on input line 88.
+Package pdftex.def Info: images/7.png  used on input line 91.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
 <images/8.png, id=30, 1371.1225pt x 770.88pt>
 File: images/8.png Graphic file (type png)
 <use images/8.png>
-Package pdftex.def Info: images/8.png  used on input line 93.
+Package pdftex.def Info: images/8.png  used on input line 96.
 (pdftex.def)             Requested size: 229.38812pt x 128.96587pt.
  [2 <./images/desktop.jpg> <./images/plane1.png (PNG copy)> <./images/plane8.pn
 g (PNG copy)>] [3 <./images/1.png (PNG copy)> <./images/2.png (PNG copy)> <./im
@@ -345,27 +372,27 @@ ages/3.png (PNG copy)> <./images/4.png (PNG copy)> <./images/5.png (PNG copy)>
 <./images/6.png (PNG copy)> <./images/7.png (PNG copy)> <./images/8.png (PNG co
 py)>]
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 <images/konsole.png, id=46, 665.48625pt x 404.51125pt>
 File: images/konsole.png Graphic file (type png)
 <use images/konsole.png>
-Package pdftex.def Info: images/konsole.png  used on input line 198.
+Package pdftex.def Info: images/konsole.png  used on input line 201.
 (pdftex.def)             Requested size: 229.38812pt x 139.42691pt.
 <images/konsole-stego.png, id=47, 665.48625pt x 404.51125pt>
 File: images/konsole-stego.png Graphic file (type png)
 <use images/konsole-stego.png>
-Package pdftex.def Info: images/konsole-stego.png  used on input line 203.
+Package pdftex.def Info: images/konsole-stego.png  used on input line 206.
 (pdftex.def)             Requested size: 229.38812pt x 139.42691pt.
 [6 <./images/konsole.png (PNG copy)> <./images/konsole-stego.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
@@ -373,10 +400,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 <images/proposed_scheme.png, id=55, 498.86375pt x 212.795pt>
 File: images/proposed_scheme.png Graphic file (type png)
 <use images/proposed_scheme.png>
-Package pdftex.def Info: images/proposed_scheme.png  used on input line 235.
+Package pdftex.def Info: images/proposed_scheme.png  used on input line 238.
 (pdftex.def)             Requested size: 299.20059pt x 127.62927pt.
  [8 <./images/proposed_scheme.png>] [9]
-Overfull \hbox (3.94011pt too wide) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Overfull \hbox (3.94011pt too wide) in paragraph at lines 343--344
 \OT1/cmr/m/n/10 (refer the paper) suggested in the paper were not implemented p
 recisely. Instead, a linear form of steganography
  []
@@ -384,73 +416,80 @@ recisely. Instead, a linear form of steganography
 <images/lenna.png, id=62, 513.92pt x 513.92pt>
 File: images/lenna.png Graphic file (type png)
 <use images/lenna.png>
-Package pdftex.def Info: images/lenna.png  used on input line 352.
+Package pdftex.def Info: images/lenna.png  used on input line 350.
 (pdftex.def)             Requested size: 160.57098pt x 160.56822pt.
 <images/stego-lenna.png, id=63, 501.875pt x 501.875pt>
 File: images/stego-lenna.png Graphic file (type png)
 <use images/stego-lenna.png>
-Package pdftex.def Info: images/stego-lenna.png  used on input line 358.
+Package pdftex.def Info: images/stego-lenna.png  used on input line 356.
 (pdftex.def)             Requested size: 160.57098pt x 160.57265pt.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 362.
+
+(/home/himanshu/.miktex/texmfs/install/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 <images/covermsb.png, id=64, 513.92pt x 513.92pt>
 File: images/covermsb.png Graphic file (type png)
 <use images/covermsb.png>
-Package pdftex.def Info: images/covermsb.png  used on input line 367.
+Package pdftex.def Info: images/covermsb.png  used on input line 370.
 (pdftex.def)             Requested size: 160.57098pt x 160.56822pt.
 <images/coverlsb.png, id=65, 513.92pt x 513.92pt>
 File: images/coverlsb.png Graphic file (type png)
 <use images/coverlsb.png>
-Package pdftex.def Info: images/coverlsb.png  used on input line 373.
+Package pdftex.def Info: images/coverlsb.png  used on input line 376.
 (pdftex.def)             Requested size: 160.57098pt x 160.56822pt.
-[10 <./images/lenna.png> <./images/stego-lenna.png (PNG copy)>]
-<images/stegomsb.png, id=69, 501.875pt x 501.875pt>
+ [10 <./images/lenna.png> <./images/stego-lenna.png (PNG copy)>]
+<images/stegomsb.png, id=70, 501.875pt x 501.875pt>
 File: images/stegomsb.png Graphic file (type png)
 <use images/stegomsb.png>
-Package pdftex.def Info: images/stegomsb.png  used on input line 382.
+Package pdftex.def Info: images/stegomsb.png  used on input line 385.
 (pdftex.def)             Requested size: 160.57098pt x 160.57265pt.
-<images/stegolsb.png, id=70, 501.875pt x 501.875pt>
+<images/stegolsb.png, id=71, 501.875pt x 501.875pt>
 File: images/stegolsb.png Graphic file (type png)
 <use images/stegolsb.png>
-Package pdftex.def Info: images/stegolsb.png  used on input line 388.
+Package pdftex.def Info: images/stegolsb.png  used on input line 391.
 (pdftex.def)             Requested size: 160.57098pt x 160.57265pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
 
  []
 
-LaTeX Font Info:    Try loading font information for U+futs on input line 398.
+LaTeX Font Info:    Try loading font information for U+futs on input line 401.
 (/home/himanshu/.miktex/texmfs/install/tex/latex/fourier/ufuts.fd
 File: ufuts.fd 2004/03/26 Fontinst v1.926 font definitions for U/futs.
 ) [11 <./images/covermsb.png (PNG copy)> <./images/coverlsb.png (PNG copy)> <./
 images/stegomsb.png (PNG copy)> <./images/stegolsb.png (PNG copy)>] (rep.aux) )
  
 Here is how much of TeX's memory you used:
- 3361 strings out of 494891
- 47618 string characters out of 3178494
- 120045 words of memory out of 3000000
- 6913 multiletter control sequences out of 15000+200000
- 11064 words of font info for 42 fonts, out of 3000000 for 9000
+ 4266 strings out of 494891
+ 60928 string characters out of 3178494
+ 144507 words of memory out of 3000000
+ 7800 multiletter control sequences out of 15000+200000
+ 11579 words of font info for 44 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 41i,12n,32p,2994b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc
-10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmmi7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmsy5.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmti10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public
-/fourier/fourier-orns.pfb>
-Output written on rep.pdf (12 pages, 3017381 bytes).
+ 41i,12n,32p,2994b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/home/himanshu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/himan
+shu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/him
+anshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/h
+imanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></hom
+e/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></h
+ome/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5
+.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/public/fourier/fou
+rier-orns.pfb></home/himanshu/.miktex/texmfs/install/fonts/type1/urw/courier/uc
+rr8a.pfb>
+Output written on rep.pdf (12 pages, 3030327 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
