@@ -51,6 +51,31 @@ Enter the bit plane number in the entry box and click on `Generate`. Below are L
 
 To read about bit planes either refer to the `Report` directory in the repository or go though this link - [Bit Planes](https://en.wikipedia.org/wiki/Bit_plane)
 
+## Example
 Just so that you see the similarity, the left one is the original image and the right one is the stego image.
 
 <img src="/readme_images/baboon.png" width="400">  <img src="/readme_images/stego.png" width="400">
+
+## Disclaimer 
+Distributed over **Standard MIT License**
+
+```Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.```
+
+## AUTHOR
+This full software pack with its documentation in `Report` folder is done by **Himanshu Sharma**, the owner of this github repository and account. 
